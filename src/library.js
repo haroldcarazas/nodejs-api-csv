@@ -35,7 +35,7 @@ export const importFn = async (req, res) => {
       csvData.pop()
     }
 
-    // Formatear el string y quitar caracteres raros
+    // Iterar cada fila de la data e insertarla en la tabla users de la base de datos.
     for (const row of csvData) {
       const data = row.split(',')
 
@@ -49,6 +49,19 @@ export const importFn = async (req, res) => {
 
     res.writeHead(200, { 'Content-Type': 'application/json' })
     res.end(JSON.stringify({ message: 'Data imported successfully' }))
+  } catch (error) {
+    console.log(error)
+    res.writeHead(500, { 'Content-Type': 'application/json' })
+    res.end(JSON.stringify({ message: 'Internal server error' }))
+  }
+}
+
+export const getUsers = async (req, res) => {
+  try {
+    const [rows] = await pool.query('SELECT * FROM users')
+
+    res.writeHead(200, { 'Content-Type': 'application/json' })
+    res.end(JSON.stringify(rows))
   } catch (error) {
     console.log(error)
     res.writeHead(500, { 'Content-Type': 'application/json' })

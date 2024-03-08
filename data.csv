@@ -1,0 +1,21 @@
+id,nombre,email,password,fecha_nacimiento
+1,Karen Johnson,karen@example.com,25d55ad283aa400af464c76d713c07ad,1993-08-17
+2,David Smith,david@example.com,25d55ad283aa400af464c76d713c07ad,1986-11-25
+3,Linda Brown,linda@example.com,25d55ad283aa400af464c76d713c07ad,1979-02-03
+4,Michael Miller,michael@example.com,25d55ad283aa400af464c76d713c07ad,1996-04-21
+5,Susan Davis,susan@example.com,25d55ad283aa400af464c76d713c07ad,1983-01-12
+6,John Wilson,john@example.com,25d55ad283aa400af464c76d713c07ad,1974-06-29
+7,Amy Taylor,amy@example.com,25d55ad283aa400af464c76d713c07ad,1999-10-07
+8,Thomas Lee,david@example.com,25d55ad283aa400af464c76d713c07ad,1990-12-14
+9,Patricia Martinez,patricia.com,25d55ad283aa400af464c76d713c07ad,1977-07-26
+10,Christopher White,chris@example.com,25d55ad283aa400af464c76d713c07ad,1991-03-04
+11,Alex Johnson,alex@example.com,25d55ad283aa400af464c76d713c07ad,1984-09-02
+12,Jennifer Smith,karen@example.com,25d55ad283aa400af464c76d713c07ad,1975-05-20
+13,Paul Brown,paul@example.com,25d55ad283aa400af464c76d713c07ad,1992-08-08
+14,Amanda Miller,amanda@example.com,25d55ad283aa400af464c76d713c07ad,1978-11-16
+15,Robert Davis,robert@example.com,25d55ad283aa400af464c76d713c07ad,1995-06-27
+16,Michelle Wilson,michelle@example.com,25d55ad283aa400af464c76d713c07ad,1980-04-05
+17,William Taylor,william@example.com,25d55ad283aa400af464c76d713c07ad,1997-02-13
+18,Elizabeth Lee,karen@example.com,25d55ad283aa400af464c76d713c07ad,1981-09-30
+19,James Martinez,michael@example.com,25d55ad283aa400af464c76d713c07ad,1976-12-19
+20,Mary White,mary@example.com,25d55ad283aa400af464c76d713c07ad,1993-01-07
